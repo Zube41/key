@@ -1,1 +1,9 @@
-<h1> Welcome to Awesome Web App</h1>
+<% @songs.each do |song| %>
+  <div>
+    <i><%= song.artist %></i><br />
+    <i><%= song.song %></i><br />
+    <i><%= song.key %></i><br />
+  </div>
+
+  <hr />
+<% end %>
