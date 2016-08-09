@@ -1,9 +1,11 @@
 <% @songs.each do |song| %>
-  <div>
+  <div class="booyah-box col-xs-10 col-xs-offset-1">
+  <div align="center">
     <b><i><%= song.artist %></i></b><br />
     <q><i><%= song.song %></i></q><br />
     <font color="red"><i><%= song.key %></i></font><br />
   </div>
+  </div>
 
-  <hr />
+  
 <% end %>
